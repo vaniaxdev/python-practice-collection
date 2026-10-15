@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+    <style>
+        body {
+
+            background: #ffffff;
+            font-family: "Jim Nightshade", cursive;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+
+        form {
+            width: 28%;
+            border: 1px solid #0000ff;
+            padding: 16px;
+            margin: auto;
+        }
+
+        label {
+            font-weight: bold;
+            color: #800080;
+        }
+
+        .full-width {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 12px;
+        }
+
+        button {
+            width: 100%;
+            border-color: #3c0080;
+            padding: 10px;
+            color: #008044;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input class="full-width" type="text" id="fullname" name="fullname">
+
+        <br><br>
+        <label for="email">Email Address:</label>
+        <input class="full-width" type="email" id="email" name="email">
+
+        <br><br>
+        <label for="password">Password:</label>
+        <input class="full-width" type="password" id="password" name="password">
+
+        <br><br>
+        <label for="course">Choose Your Course:</label>
+        <select id="course" name="course">
+            <option value="it">Information Technology</option>
+            <option value="cs">Computer Science</option>
+            <option value="se">Software Engineering</option>
+            <option value="ds">Data Science</option>
+            <option value="ml">Machine Learning</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+
+</html>
