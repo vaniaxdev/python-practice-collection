@@ -1,0 +1,44 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.col {
+    border: 1px solid gray;
+    width: 24%;
+}
+
+
+p {
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    p {
+        color: #ff0000;
+    }
+
+    .col {
+        width: 48%;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .col {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    p {
+        color: #00b7ff;
+    }
+}
+
+
+/* sm md lg xl xxl */
+/* CSS frameworks --code that is already done 95% 5% */
+/* Python -- django */
